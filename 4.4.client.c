@@ -19,7 +19,7 @@ int main(int argc, char **argv[])
 		printf("Could not create socket");
 	}
 
-	server.sin_addr.s_addr = inet_addr("192.168.56.104");
+	server.sin_addr.s_addr = inet_addr("192.168.0.55");
 	server.sin_family = AF_INET;
 	server.sin_port = htons( 8888 );
 
